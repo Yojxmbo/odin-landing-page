@@ -64,6 +64,8 @@ body {
     border-color: #3882F6;
     font-weight: bold;
     padding: 3px 17px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
 }
 
 .imageOne {
@@ -111,18 +113,19 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    font-size: medium;
-    font-weight: 300; /* 300 is typically the weight for "light" */
+    font-size: large;
+    font-weight: 300; 
     font-style: italic;
     color: #1F2937;
     width: 70%;
     padding: 1rem;
+    text-align: center;
 }
 
 .blockThree--thor {
     font-weight: 800;
-    text-align: end;
     font-size: small;
+    text-align: right;
 }
 
 .blockFour {
@@ -137,21 +140,36 @@ body {
 
 .bluebanner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
     border-radius: 5px;
     background-color: #3882F6;
     color: #E5E7EB;
     width: 70%;
-    margin: 50px;
+    margin: 50px auto;
+    padding: 20px;
 }
 
 .blockFour--One {
-    font-size: small;
+    display: flex;
+    flex-direction: column;
 }
 
-.blockFour--Two {
+.blockFour--One h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
+.blockFour--One p {
+    color: white;
+    font-size: 16px;
+    margin-top: 10px; 
+}
+
+.blockFour--One h1, p {
+    margin: 0;
 }
 
 .buttonTwo {
@@ -162,6 +180,8 @@ body {
     border-color: #E5E7EB;
     font-weight: bold;
     padding: 3px 17px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
 }
 
 .footer {
@@ -174,3 +194,15 @@ body {
     font-weight: light;
     font-family: sans-serif;;
 }  
+
+
+.buttonOne:hover, .buttonTwo:hover {
+    background-color: #2b66c0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05);
+}
+
+.buttonOne:active, .buttonTwo:active {
+    background-color: #1d4a8e; 
+    transform: scale(0.98);
+}
