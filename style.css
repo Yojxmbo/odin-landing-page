@@ -1,0 +1,136 @@
+* {
+
+}
+
+body {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 1rem;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navigation {
+
+}
+
+.links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.blockOne {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 100%;
+    padding: 1rem;
+}
+
+.title--One {
+    font-size: 48px;
+    font-weight: 800; /* 800 is typically the weight for "extra-bold" */
+    color: #F9FAF8;
+}
+
+.buttonOne {
+    background-color: #3882F6;
+}
+
+.imageOne {
+
+}
+
+
+.blockTwo {
+    display: flex;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.title--Two {
+    top: 0;
+    left: 0;
+    font-size: 26px;
+    font-weight: 800; /* 800 is typically the weight for "extra-bold" */
+    color: #1F2937;
+}
+
+.blockTwo--images {
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+
+}
+
+.blockThree {
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300; /* 300 is typically the weight for "light" */
+    font-style: italic;
+    color: #1F2937;
+    width: 100%;
+    padding: 1rem;
+}
+
+.thor {
+    font-weight: 800;
+}
+
+.blockFour {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.bluebanner {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px;
+    border: 50px;
+}
+
+.blockFour--One {
+
+}
+
+.blockFour--Two {
+
+}
+
+.buttonTwo {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+} 
