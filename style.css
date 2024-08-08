@@ -51,6 +51,7 @@ body {
 
 .buttonOne {
     background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .imageOne {
@@ -60,6 +61,7 @@ body {
 
 .blockTwo {
     display: flex;
+    flex-direction: column;
     background-color: white;
     position: relative;
     width: 100%;
@@ -68,8 +70,7 @@ body {
 }
 
 .title--Two {
-    top: 0;
-    left: 0;
+    text-align: center;
     font-size: 26px;
     font-weight: 800; /* 800 is typically the weight for "extra-bold" */
     color: #1F2937;
@@ -81,12 +82,14 @@ body {
     left: 0;
 }
 
-.image1 {
-
+.images {
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 .blockThree {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 300; /* 300 is typically the weight for "light" */
@@ -96,12 +99,15 @@ body {
     padding: 1rem;
 }
 
-.thor {
+.blockThree--thor {
     font-weight: 800;
+    text-align: end;
 }
 
 .blockFour {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     width: 100%;
     padding: 1rem;
@@ -110,7 +116,10 @@ body {
 
 .bluebanner {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    color: #E5E7EB;
     margin: 50px;
     border: 50px;
 }
@@ -125,6 +134,7 @@ body {
 
 .buttonTwo {
     background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .footer {
